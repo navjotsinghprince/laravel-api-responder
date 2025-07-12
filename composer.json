@@ -1,0 +1,49 @@
+{
+    "name": "navjot/laravel-api-responder",
+    "description": "A Reusable Laravel consistent API response package for web and mobile apps",
+    "type": "library",
+    "require": {},
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "laravel",
+        "https",
+        "json",
+        "response",
+        "api",
+        "laravel-api-response",
+        "api-response",
+        "backend",
+        "api response package"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Navjot\\Laravel\\": "src/Laravel/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Navjot Singh",
+            "email": "info@navjotsinghprince.com",
+            "homepage": "https://navjotsinghprince.com"
+        },
+        {
+            "name": "Navjot Singh",
+            "homepage": "https://github.com/navjotsinghprince"
+        }
+    ],
+    "homepage": "https://github.com/navjotsinghprince/laravel-api-responder",
+    "support": {
+        "issues": "https://github.com/navjotsinghprince/laravel-api-responder",
+        "source": "https://github.com/navjotsinghprince/laravel-api-responder",
+        "docs": "https://github.com/navjotsinghprince/laravel-api-responder"
+    },
+    "funding": [
+        {
+            "url": "https://github.com/sponsors/navjotsinghprince",
+            "type": "github"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
