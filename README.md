@@ -144,12 +144,13 @@ class TestController extends Controller {
 
     /**
      * Example 3...
-     * Usage With Custom Message
+     * Usage With Custom Key/Value
      */
     public function example3(Request $request)
     { 
-        $data = ["name" => "Navjot Singh"];
-        return $response->sendSuccess("Your custom success message here...",  $data);
+        $custom_key = "payment_completed";
+        $custom_value = true;
+        return $response->sendSuccessWith("Your custom success message here...", $custom_key, $custom_value);
     }
 
     
@@ -216,7 +217,7 @@ If you discover any question within package, please send an e-mail to Navjot Sin
 Please see [changelog.md](changelog.md) for what has changed recently.
 
 
-## ☕ Buy Me A Coffee! :coffee: 
+## ☕ Buy Me A Coffee!
 Feel free to buy me a coffee at [__Buy me a coffee! :coffee:__]( https://ko-fi.com/navjot), I would be really grateful for anything, be it coffee or just a kind comment towards my work, that helps me a lot.
 
 ## 💰 Donation
