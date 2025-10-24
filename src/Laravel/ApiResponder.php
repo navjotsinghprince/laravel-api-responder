@@ -13,8 +13,8 @@ use Illuminate\Support\Facades\Response;
  * A unified JSON response formatter for APIs (Web + Mobile)
  *
  * @author Navjot
- * @link https://navjotsinghprince.com
- * @contact info@navjotsinghprince.com
+ * @link https://github.com/navjotsinghprince
+ * @contact navjotsinghprince@icloud.com
  * 
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.

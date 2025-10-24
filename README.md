@@ -92,7 +92,7 @@ use Illuminate\Http\Request;
 use Navjot\Laravel\ApiResponder;
 use Illuminate\Support\Facades\Validator;
 
-//Feel Free To Visit https://navjotsinghprince.com
+//Feel Free To Visit https://github.com/navjotsinghprince
 class TestController extends Controller {
     
    use ApiResponder;
@@ -164,8 +164,8 @@ class TestController extends Controller {
 
    $response = [
       "name" => "Navjot Singh",
-      "email" => "info@navjotsinghprince.com",
-      "website" => "https://navjotsinghprince.com"
+      "email" => "navjotsinghprince@icloud.com",
+      "website" => "https://github.com/navjotsinghprince"
     ];
 
     return $this->sendSuccess("eg. Request completed successfully", $response);
@@ -206,11 +206,11 @@ class TestController extends Controller {
 ## 👨‍💻 Authors
 :point_right: [Navjot Singh Prince](https://github.com/navjotsinghprince)
 
-See also the site of [contributor](https://navjotsinghprince.com)
+See also the site of [contributor](https://github.com/navjotsinghprince)
 who participated in this package.
 
 ## 📬 Contact
-If you discover any question within package, please send an e-mail to Navjot Singh via [info@navjotsinghprince.com](mailto:info@navjotsinghprince.com). Your all questions will be answered.
+If you discover any question within package, please send an e-mail to Navjot Singh via [navjotsinghprince@icloud.com](mailto:navjotsinghprince@icloud.com). Your all questions will be answered.
 
 ## 📓 Changelog
 Please see [changelog.md](changelog.md) for what has changed recently.
